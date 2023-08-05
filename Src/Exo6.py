@@ -76,7 +76,7 @@ def createRegularImage(image_in):
 
 #Read an image given the filename
 #TODO: Change filename here
-filename = "../Samples/retina_2.png"
+filename = "../Samples/retina_wc.png"
 img = cv.imread(cv.samples.findFile(filename), cv.IMREAD_GRAYSCALE)
 #Convert image to a binary image with threshold=125 for example
 th_val, img_binary = cv.threshold(img,125,255,cv.THRESH_BINARY)

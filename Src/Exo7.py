@@ -162,7 +162,7 @@ def connectedComponent(image_in):
 
 #Read an image given the filename
 #TODO: Change filename here
-filename = "../Samples/retina_2.png"
+filename = "../Samples/retina_wc.png"
 img = cv.imread(cv.samples.findFile(filename), cv.IMREAD_GRAYSCALE)
 
 #Call backwardRotationImage on the input image img

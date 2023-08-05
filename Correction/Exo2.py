@@ -7,8 +7,9 @@
 #                                                                          #
 ############################################################################
 
-import math
 import cv2 as cv
+import os
+import math
 import imutils
 import numpy as np
 
@@ -42,7 +43,7 @@ print("Current working directory:", cwd)
 
 #Read an image given the filename
 #TODO: Change filename here
-filename = "../Samples/Retina_1.png"
+filename = "../Samples/retina.png"
 img = cv.imread(cv.samples.findFile(filename), cv.IMREAD_GRAYSCALE)
 
 #Create a window

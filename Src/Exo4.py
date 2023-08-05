@@ -127,6 +127,10 @@ def setPixelValue(img, row : int, col : int, val : int):
     if(row<height and row>=0 and col<width and col>=0):
         img[row,col] = val
 
+###################################
+######## Optional: Trackbar #######
+###################################
+''' Uncomment this if you want to run this part of the code
 #Callback function for the trackbar of forward rotation
 def trackbarCallback1(angle: int) -> None:
     #TODO: Rotate the image by the angle (in degree) using imutils package (with interpolation)
@@ -144,6 +148,8 @@ def trackbarCallback2(angle: int) -> None:
     cv.imshow(FIXME)
     #TODO: Save the rotated image
     cv.imwrite(FIXME)
+
+'''
 
 #Create a black image of size [width, height]
 def createBlackImage(width: int, height: int):
