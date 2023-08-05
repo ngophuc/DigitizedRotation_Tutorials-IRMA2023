@@ -8,7 +8,7 @@ The technical requirements for the code are:
 * Git client
 * OpenCV installed
 
-This tutorial can also be done, only with the online platforme such as:
+This tutorial can also be done, only with the online platforms such as:
 * <a href=https://jupyter.org/try-jupyter/lab/>JupyterLab</a> (no account, no paid plan needed)
 * <a href=https://colab.research.google.com/> Google Colab</a> (you just need a Google account, no paid plan needed)
 
