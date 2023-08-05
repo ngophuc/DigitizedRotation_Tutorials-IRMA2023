@@ -9,10 +9,12 @@ The technical requirements for the code are:
 * OpenCV installed
 
 This tutorial can also be done, only with the online platforms such as:
-* <a href=https://jupyter.org/try-jupyter/lab/>JupyterLab</a> (no account, no paid plan needed)
 * <a href=https://colab.research.google.com/> Google Colab</a> (you just need a Google account, no paid plan needed)
 
-Attention: For the online code, the functions related the interface (cv.namedWindow, cv.imshow, cv.destroyAllWindows, cv.createTrackbar, ...) won't work. 
+Hereafter is the link for the online codes:
+* <a href='https://colab.research.google.com/drive/1a4pbS9lxdcoNjYjWb02_9B5IppCou2mH?usp=sharing'> Google Colab</a>
+* <a href='https://colab.research.google.com/drive/1a4pbS9lxdcoNjYjWb02_9B5IppCou2mH?usp=sharing'> Google Colab (correction) </a>
+
 
 ## Get the code
 
