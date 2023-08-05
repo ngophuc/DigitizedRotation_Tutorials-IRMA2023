@@ -1,3 +1,12 @@
+############################################################################
+# Partical sesssion : Geometric Transformations on Digital Images          #
+#                                                                          #
+# Author : Phuc Ngo                                                        #
+#                                                                          #
+# Date : August 2023                                                       #
+#                                                                          #
+############################################################################
+
 import math
 import numpy as np
 
