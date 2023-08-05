@@ -17,9 +17,9 @@ def trackbarCallback(angle: int) -> None:
     #TODO: Rotate the image by the angle (in degree) using imutils package (with interpolation)
     rotated = imutils.rotate(img, angle)
     #TODO: Show the rotated image in the window
-    cv.imshow(FIXME)
-    #TODO: Save the rotated image to: "../Results/rotated_image.png"
-    cv.imwrite(FIXME)
+    cv.imshow(title_window, rotated)
+    #TODO: Save the rotated image
+    cv.imwrite("../Results/rotated_image.png", rotated)
 
 ###################################
 ########### Main program ##########
@@ -40,7 +40,7 @@ img = cv.imread(cv.samples.findFile(filename), cv.IMREAD_GRAYSCALE)
 cv.namedWindow(title_window)
 
 #TODO: Create trackbar associated to the window
-cv.createTrackbar(FIXME)
+cv.createTrackbar(title_slider, title_window, angle, angle_max, trackbarCallback)
 #Call the callback function of trackbar for angle = 0
 trackbarCallback(0)
 

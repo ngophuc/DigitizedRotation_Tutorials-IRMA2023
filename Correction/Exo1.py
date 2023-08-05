@@ -18,16 +18,16 @@ print("Current working directory:", cwd)
 
 #TODO: Read an image given the filename
 filename = "../Samples/church.png"
-img = cv.imread(FIXME)
+img = cv.imread(filename, cv.IMREAD_GRAYSCALE)
 
 #TODO: Create a window
-cv.namedWindow(FIXME)
+cv.namedWindow(title_window)
 
 #TODO: Show the image in the created window
 cv.imshow(title_window, img)
 
 #TODO: Save the image
-cv.imwrite(FIXME)
+cv.imwrite("../Results/save_image.png", img)
 
 #Wait for any key then close all the windows
 key = cv.waitKey()
