@@ -12,9 +12,8 @@ This tutorial can also be done, only with the online platforms such as:
 * <a href=https://colab.research.google.com/> Google Colab</a> (you just need a Google account, no paid plan needed)
 
 Hereafter is the link for the online codes:
-* <a href='https://colab.research.google.com/drive/1a4pbS9lxdcoNjYjWb02_9B5IppCou2mH?usp=sharing'> Google Colab</a>
+* <a href='https://colab.research.google.com/drive/1A3zmF_uk_5OYvyvS7zpYDu4hz4JMA12O?usp=sharing'> Google Colab</a>
 * <a href='https://colab.research.google.com/drive/1a4pbS9lxdcoNjYjWb02_9B5IppCou2mH?usp=sharing'> Google Colab (correction) </a>
-
 
 ## Get the code
 
