@@ -8,9 +8,11 @@ The technical requirements for the code are:
 * Git client
 * OpenCV installed
 
-This tutorial can also be done, only with 
+This tutorial can also be done, only with the online platforme such as:
 * <a href=https://jupyter.org/try-jupyter/lab/>JupyterLab</a> (no account, no paid plan needed)
 * <a href=https://colab.research.google.com/> Google Colab</a> (you just need a Google account, no paid plan needed)
+
+Attention: For the online code, the functions related the interface (cv.namedWindow, cv.imshow, cv.createTrackbar, ...) won't work. 
 
 ## Get the code
 
