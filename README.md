@@ -9,7 +9,7 @@ The technical requirements for the code are:
 * OpenCV installed
 
 This tutorial can also be done, only with 
-* <a href=https://jupyter.org/>JupyterLab</a> (no account, no paid plan needed)
+* <a href=https://jupyter.org/try-jupyter/lab/>JupyterLab</a> (no account, no paid plan needed)
 * <a href=https://colab.research.google.com/> Google Colab</a> (you just need a Google account, no paid plan needed)
 
 ## Get the code
