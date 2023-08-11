@@ -18,11 +18,20 @@ Hereafter is the link for the online codes:
 ## Get the code
 
 To get the code, the easiest way is to `clone` the github repository. E.g. with the command-line git client:
-  
-    git clone https://github.com/ngophuc/DigitizedRotation_Tutorials-IRMA2023.git
-
+```  
+git clone https://github.com/ngophuc/DigitizedRotation_Tutorials-IRMA2023.git
+```
 (You can also use your favorite GUI git client).
 
 ## Third-party libraries
 
 The code uses <a href=https://opencv.org/>OpenCV library</a> of image processing and computer vision. 
+```
+pip install opencv-python
+pip install numpy
+```
+For version online with Google Colab, we use matplotlib package for visualisation
+```
+pip install matplotlib
+```
+
