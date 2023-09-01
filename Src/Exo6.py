@@ -42,7 +42,7 @@ def verifyWellComposedImage(image_in) -> bool:
     #Scan the image and check for the forbidden configuration
     for i in range(height-1):#Row
         for j in range(width-1):#Col
-            #TODO: Get the four pixels that form a square of 2x2 (Indication: call getPixelValue for the four pixels (i,j), (i+1, j), (j+1,i), (i+1, j+1))
+            #TODO: Get the four pixels that form a square of 2x2 (Indication: call getPixelValue for the four pixels (i,j), (i+1, j), (i,j+1), (i+1, j+1))
             a = getPixelValue(image_in, i, j)
             b = getPixelValue(image_in, i+1, j)
             c = getPixelValue(image_in, i, j+1)
@@ -63,7 +63,7 @@ def createRegularImage(image_in):
         for j in range(width-1):#Col
             intensity = getPixelValue(image_in, i, j)
             if intensity == 255:#white pixel
-                #TODO: Set the color 255 to the 2x2 pixels in image_upsampling (Indication: call setPixelValue for the four pixels (2*i,2*j), (2*i+1, 2*j), (2*j+1,2*i), (2*i+1, 2*j+1))
+                #TODO: Set the color 255 to the 2x2 pixels in image_upsampling (Indication: call setPixelValue for the four pixels (2*i,2*j), (2*i+1, 2*j), (2*i,2*j+1), (2*i+1, 2*j+1))
                 FIXME
                 FIXME
                 FIXME
